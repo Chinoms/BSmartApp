@@ -1,5 +1,4 @@
 <?php
-mysql_connect('localhost','root', '');
-$dbname="bhsdb";
-mysql_select_db("$dbname");
+  mysqli_connect('localhost','root', '');
+  mysqli_select_db($conn, "bhsdb");
 ?>
